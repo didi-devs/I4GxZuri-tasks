@@ -53,6 +53,17 @@ b {
   text-align: center;
   justify-content: center;
  }
+ 
+ .button:hover {
+   color: rgb(255, 255, 255);
+   background-color: #151e3d;
+ }
+
+ section .contact {
+   padding-top: 70%;
+   width: 100%;
+ }
+
 
 .card-body {
   background-color: aliceblue;
@@ -89,7 +100,7 @@ b {
 .form-control {
   font-size: 15px;
   width: 200px;
-  height: 5vh;
+  height: 6vh;
   border-radius: 5px;
   border: 1px solid rgb(102, 99, 99);
  
@@ -128,4 +139,10 @@ img {
 .list li {
   text-align: left;
   float: left;
+}
+
+.sign-in {
+  font-size: 50px;
+  width: 100%;
+  
 }
