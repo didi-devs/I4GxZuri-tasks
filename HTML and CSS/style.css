@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.GU8mqHuw4J39iRajNZ-O4wHaFj?w=228&h=180&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    color: white;
+
+}   
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+   }
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* .active {
+  background-color: #04AA6D;
+} */
+
+li a:hover {
+  background-color: #111;
+}
+
+ /* div {
+    background-image: url("https://th.bing.com/th/id/OIP.GU8mqHuw4J39iRajNZ-O4wHaFj?w=228&h=180&c=7&r=0&o=5&pid=1.7");
+    opacity: 0.8;
+
+}  */
+b {
+    width: 900%;
+}
+
+ .button {
+   font-size: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ }
+
+.card-body {
+  background-color: aliceblue;
+  color: black;
+  height: 70vh;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(155, 115, 115);
+  position: absolute;
+  top: 23%;
+  left: 30%;
+  transform: translate(-50% -50%);
+}
+
+.checkDIV
+{
+    text-align:left;
+    margin: 5px 0px;
+}
+ 
+ label {
+    float: left;
+   
+    margin: 5px 0px;
+    width: 100px; 
+}
+
+/*input {
+    float: left;
+    margin: 5px 0px;
+}*/
+ 
+
+.form-control {
+  font-size: 15px;
+  width: 200px;
+  height: 5vh;
+  border-radius: 5px;
+  border: 1px solid rgb(102, 99, 99);
+ 
+}
+
+.wrapper input, textarea {
+  height: 8vh;
+  padding-left: 5px;
+  display: flex;
+}
+ .wrapper{
+   padding-left: 33px;
+ }
+
+ .form-box{
+   height: 20vh;
+   border-radius: 5px;
+   width: 200px;
+  
+ }
+
+.submit {
+  font-size: 300px;
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+img {
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list li {
+  text-align: left;
+  float: left;
+}
